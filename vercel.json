@@ -2,5 +2,6 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "buildCommand": "turbo run build --filter=@documenso/remix",
   "installCommand": "npm install",
-  "outputDirectory": "apps/remix/build/client"
+  "outputDirectory": "apps/remix/build/client",
+  "framework": null
 }
