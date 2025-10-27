@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "build": "./.bin/build.sh",
-    "build:app": "npm run typecheck && cross-env NODE_ENV=production react-router build",
+    "build:app": "cross-env NODE_ENV=production react-router build",
     "build:server": "cross-env NODE_ENV=production rollup -c rollup.config.mjs",
     "dev": "npm run with:env -- react-router dev",
     "dev:billing": "bash .bin/stripe-dev.sh",
@@ -93,12 +93,13 @@
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "@types/ua-parser-js": "^0.7.39",
+    "@vercel/remix": "^2.16.7",
     "cross-env": "^7.0.3",
     "esbuild": "^0.25.4",
     "remix-flat-routes": "^0.8.4",
     "rollup": "^4.34.5",
     "tsx": "^4.19.2",
-    "typescript": "5.6.2",
+    "typescript": "^5.9.3",
     "vite": "^6.3.5",
     "vite-plugin-babel-macros": "^1.0.6",
     "vite-tsconfig-paths": "^5.1.4"

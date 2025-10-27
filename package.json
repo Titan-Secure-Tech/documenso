@@ -45,6 +45,7 @@
     "@commitlint/config-conventional": "^17.7.0",
     "@lingui/cli": "^5.2.0",
     "@prisma/client": "^6.8.2",
+    "@vercel/react-router": "^1.2.3",
     "dotenv": "^16.5.0",
     "dotenv-cli": "^8.0.0",
     "eslint": "^8.40.0",
